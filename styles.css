@@ -1,0 +1,250 @@
+*{
+  font-family: Roboto;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo{
+  width: 300px;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn-2:hover{
+  background-color:red !important;
+  color: white !important;
+}
+.dropdown-menu{
+  padding: 0 !important;
+  padding-bottom: 2px !important;
+}
+.phone{
+  transition: border 0.85s !important;
+}
+.phone:hover{
+  border:1px solid black !important;
+  background-color: black !important;
+}
+.phn{
+  border-radius: 12px !important;
+}
+.sliderbor{
+  border-top: 4px solid grey;
+}
+.banners{
+  height:500px;
+}
+.chase{
+  border: none;
+  width: 100%;
+  background:transparent;
+  color: white;
+  outline: none;
+}
+
+.headPara{
+  font-size: 30px;
+  font-weight: bold;
+}
+.img2{
+width:250px
+}
+.img1{
+  width: 170px;
+}
+.flexDiv{
+  user-select: none;
+  cursor: pointer;
+  border: none !important;
+}
+.flexDiv p{
+  text-align: left;
+  user-select: text;
+  cursor: auto;
+}
+.flexDiv img{
+  cursor: pointer;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E") !important;
+  background-size: 35px 35px !important; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+.registerBtn{
+  padding: 6px 18px;
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  transform: rotate(270deg);
+  position: fixed;
+  top:50%;
+  right: 0;
+  margin-right: -49px;
+  border: 1px solid white;
+  font-size: 17px;
+  z-index: 200;
+}
+.whyChoose{
+  background-color: rgba(128, 128, 128, 0.082);
+  padding-bottom: 27px;
+}
+.para{
+  color: rgb(84, 81, 81);
+  font-size: 17px;
+}
+.togDiv{
+width: 740px;
+}
+.card-1{
+  background-color: black !important;
+  border: 2px solid white !important;
+  border-radius: 0 !important;
+  padding-bottom: 10px;
+}
+.card button{
+  background-color: black;
+  color:white;
+  border: 2px solid white;
+  width: 100px;
+  padding: 3px;
+}
+.cards-container2{
+  background-color: black;
+  margin: auto;
+}
+.footer-section{
+  background-color: black;
+}
+.g-1{
+  color: grey;
+  font-size: 20px;
+  text-align: justify;
+}
+.g-3 p{
+  text-align: left;
+}
+.cour{
+  color: #e63135;
+  font-size: 22px;
+  text-decoration: none;
+}
+.linksDiv{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.linksDiv a{
+  text-decoration: none;
+  font-size: 17px;
+  color:grey !important;
+}
+.row-5{
+  text-align: justify;
+}
+.bold{
+  font-weight: 700;
+  color: white;
+  margin-bottom: 4px;
+  font-size: 17px;
+}
+.bold span{
+  margin-right: 20px;
+}
+.noBold{
+  color: grey;
+  font-size: 17px;
+  margin: 0;
+  margin-left: 40px;
+}
+.loc{
+  width:20px
+}
+.cour-3{
+  margin-left: 35px;
+}
+.social-media{
+  width:33px
+}
+.para-5{
+  font-size: 17px;
+}
+.train{
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+
+.viewMore{
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #e63135;
+  border: none;
+  margin-top: 16px;
+  border-radius: 10px;
+  transition: background-color 0.35s;
+}
+.viewMore:hover{
+  background-color: black;
+}
+
+.profilePic{
+  width:60px !important;
+}
+
+.cardDiv{
+  border-bottom: 5px solid rgba(128, 128, 128, 0.301) !important;
+  transition: border-bottom-color 0.15s;
+}
+.cardDiv:hover{
+  border-bottom-color: red !important;
+}
+.lists{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
+.lists li{
+  font-size: 18px;
+}
+
+.listDiv{
+  background-color: rgba(211, 211, 211, 0.43);
+}
+
+.watch{
+  background-color: white;
+  font-size: 20px;
+  padding: 13px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 2px solid #e63135;
+}
+.iframe{
+  border-radius: 20px;
+}
+
+.student{
+  /* width: 50px !important; */
+  width: 200px !important;
+  border-radius: 30px;
+  margin: 0;
+  padding: 0;
+}
+@media only screen  and (max-width:600px) {
+  .cour{
+    text-decoration: underline;
+  }
+  .student{
+    width:180px !important;
+  }
+}
+
+.g-container{
+  background-color: rgba(211, 211, 211, 0.348);
+}

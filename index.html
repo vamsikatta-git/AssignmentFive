@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Five</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <button class="registerBtn">Register Now</button>
+  <header class="sticky-top">
+    <div class="bg-danger container-fluid pt-1 pb-1">
+      <div class="enq-alt  d-flex align-items-center justify-content-around gap-md-5">
+        <div class="enq gap-0 gap-lg-5 align-items-center sm-flex-column d-none d-lg-flex">
+           <span class="text-light">Enquire Now:</span>
+           <button class="phone btn btn-dark border border-light">Hyd: &#128222;9951666670</button>
+           <button class="phone btn btn-dark border border-light">Pune: &#128222;9951666671</button>
+        </div>
+        <div class="d-lg-none text-center d-flex justify-content-between flex-md-column gap-md-1">
+          <p class="text-light m-0 float-start float-md-none me-4 me-md-0">Enquire Now</p>
+      
+            <div class="d-flex flex-column gap-1 justify-content-between me-4 me-md-0">
+              <button  class="phone phn btn btn-dark border border-light  btn-sm">Hyd:9951666670</button>
+              <button  class="phone phn btn btn-dark border border-light  btn-sm">+91 9347804375</button>
+              </div>
+              <div class="d-flex flex-column gap-1 me-4 me-md-0">
+                <button  class="phone phn btn btn-dark border border-light  btn-sm">Pune:9951666671</button>
+              <button  class="phone phn btn btn-dark border border-light  btn-sm">+91 6304126766 </button>
+              </div>        
+        </div>
+        <div class="alt text-light d-none d-lg-block">
+          Alternative Numbers:  +91 9347804375 | +91 6304126766
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png" alt="Innomatics Logo" class="logo" style="height: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto"> 
+            <li class="nav-item">
+              <button class="btn btn-2 home">Home</button>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </button>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a href="#" class="dropdown-item bg-dark text-light p-3 border-bottom border-light">
+                    <select name="chase" id="" class="chase">
+                      <option value="hello" class="bg-dark text-light" selected>Data Science</option>
+                      <option value="hello" class="bg-dark text-light">Data Science Course</option>
+                      <option value="hello" class="bg-dark text-light">Online Data Science</option>
+                      <option value="hello" class="bg-dark text-light">Advanced Generative AI</option>
+                      <option value="hello" class="bg-dark text-light">Data Science Course for IT Leaders</option>
+                      <option value="hello" class="bg-dark text-light">Pre-Placement Program</option>
+                    </select>
+                  </a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3 border-bottom border-light" href="#">Full Stack Development</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Digital Marketing</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Amazon Web Services(AWS)</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Internship
+                </button>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item bg-dark text-light p-3 border-bottom border-light" href="#">Free Data Science Internship</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3 border-bottom border-light" href="#">Free Fullstack Internship</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Data Science Summer Internship</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </button>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item bg-dark text-light p-3 border-bottom border-light" href="#">About us</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Placements</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Partner with us</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Contact us</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Blog</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Reviews</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Gallery</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </button>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item bg-dark text-light p-3 border-bottom border-light" href="#">Free Data Science Workshop</a></li>
+                  <li><a class="dropdown-item bg-dark text-light p-3  border-bottom border-light" href="#">Campus Embassador</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="ms-5 me-5 d-none d-lg-block">
+              <button class="btn btn-dark">Pay Now</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide sliderbor" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.innomatics.in/wp-content/uploads/2023/12/mb-banner.jpg" class="d-block w-100 banners" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.innomatics.in/wp-content/uploads/2023/01/AWARD-PAGE.jpg" class="d-block w-100 banners" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section>
+      <div class="container pt-3 pb-3 pt-md-4 pb-md-4">
+        <div class="row">
+          <div class="col">
+            <p class="train">
+              We just don’t train,<br>
+              We transform the careers
+            </p>
+            <p class="para-5">
+              <span style="font-weight: 700;">Innomatics Research Labs</span> is a pioneer in <span style="font-weight: 700;">“Transforming Careers and Lives”</span> of individuals in the Digital Space by catering advanced training on <span style="color: #e63135;font-weight: 700">NASSCOM Future skills prime Certified Data Science</span>, <span style="font-weight: 700;">Python, Predictive Analytics Modeler, Machine Learning, Artificial Intelligence (AI),</span> <span style="color: #e63135;font-weight: 700">Full-stack web development</span>, <span style="font-weight: 700;">Amazon Web Services (AWS), DevOps, Microsoft Azure, Big data Analytics,</span> <span style="color:#e63135;font-weight: 700">Digital Marketing</span>, <span style="font-weight: 700;">and Career Launching program</span> for students who are willing to showcase their skills in the competitive job market with valuable credentials, and also can complete courses with a certificate.
+            </p>
+            <p  style="color:#e63135;font-weight: 700;font-size: 20px;">
+              NASSCOM Futureskills Prime Registered Business Partner
+            </p>
+            <p class="para-5">
+              As an authorized “Training Partner with NASSCOM Futureskills Prime,” we strive to make individuals learn not just algorithms but also case studies and challenges derived from businesses. To improve the effectiveness and productivity of our trainee <i style="font-weight: bold;">hackathons, workshops,</i> and <i style="font-weight: bold;">meetups</i> are conducted on a timely basis. Having a dedicated <span style="font-weight: bold;">placement vertical</span>, which helps trainees conquer the business world, solves the complexities. Innomatics research labs are supporting <span style="font-weight: bold;">over 100 companies</span> in finding the best candidate, which can upskill the business requirements and foster growth.
+            </p>
+            <p style="color:#e63135;font-weight: 700;font-size: 20px;">
+              Best Edtech company
+            </p>
+            <p class="para-5">
+              Recognized and rewarded by <span style="font-weight: bold;">Times Of India</span> as the <i>Best Training Institute in Hyderabad for Data Science & Digital Marketing Training.</i> With relentless hard work, sophisticated equipment, advanced classrooms, cutting-edge training methodologies, practical training approach, and making individuals skillful. We have trained and placed <b>10000</b> students with a track record of <b>350+</b> batches, <b>200+</b> Hackathons, <b>150+</b> Industry Experts, <b>500+</b> Webinars, and <b>500+ </b>Hiring Partners.
+            </p>
+  
+            <button class="viewMore">View More</button>
+          </div>
+          <div class="col-md">
+            <p class="train mt-3 mt-md-0" style="color: rgba(39, 39, 124, 0.944);">
+              What we are?
+             </p>
+             <div class="row row-cols-1 row-cols-md-2 g-4 text-center mt-md-4">
+              <div class="col">
+                <div class="card gap-3 cardDiv">
+            <div>
+              <img src="images/profile-user.png" class="profilePic card-img-top mt-5" alt="profile">
+            </div>
+                  <div class="card-body pb-5">
+                    <h5 class="card-title" style="color: rgba(39, 39, 124, 0.944); font-weight: bold;">Global Leaders in <br>training</h5>
+                    <p class="card-text">We have trainers hailing from the fortune companies who understand the real-time business cases and can train individuals based on them.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card gap-3 cardDiv">
+                  <div>
+                    <img src="images/frontImg.png" class="profilePic card-img-top mt-5" alt="">
+                  </div>
+                  <div class="card-body pb-5">
+                    <h5 class="card-title" style="color: rgba(39, 39, 124, 0.944); font-weight: bold;">Practical oriented approach</h5>
+                    <p class="card-text">Our training methodology isn’t confined to theoretical one; We have an exposure towards the real-time industry training by industry experts professionals.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card gap-3 cardDiv">
+                  <div>
+                    <img src="images/suitcase.png" class="card-img-top profilePic mt-5" alt="...">
+                  </div>
+                  <div class="card-body pb-5">
+                    <h5 class="card-title" style="color: rgba(39, 39, 124, 0.944); font-weight: bold;">Hands-on projects & Internship</h5>
+                    <p class="card-text">We have trainers hailing from the fortune companies who understand the real-time business cases and can train individuals based on them.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card gap-3 cardDiv">
+                  <div>
+                    <img src="images/bowtie.png" class="card-img-top profilePic mt-5" alt="...">
+                  </div>
+                  <div class="card-body pb-5">
+                    <h5 class="card-title" style="color: rgba(39, 39, 124, 0.944); font-weight: bold;">100% Placement Assistance</h5>
+                    <p class="card-text">We promise Career Transformation; Having collaborations with top-notch companies and a dedicated placement vertical to help trainees aspire to aspirations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cards-container2">
+      <div class=" p-4">
+        <p class="fs-1 text-light text-center">Trending Courses of 2024</p>
+          <div class="container w-75">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card card-1 h-100 text-center text-light">
+                  <img src="images/image1.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">NASSCOM Futureskills Prime Certified Data Science</h5>
+                    <p class="card-text">This is a great choice for tech geeks, students, working professionals and aspiring data scientists who want to upskill and build a better foundation is the stream of Data Science.</p>
+                  </div>
+                  <center><button>Read More</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-1 h-100 text-center text-light">
+                  <img src="images/image2.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Full Stack Development</h5>
+                    <p class="card-text">Learn the right skills to break into a development career & advance yourself as a full-stack Developer. It includes Frontend, Backend, databases, debugging & testing.</p>
+                  </div>
+                  <center><button class="align-items-center">Read More</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-1 h-100 text-center text-light">
+                  <img src="images/image3.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">TDigital Marketing Course at Innomatics is perfect for Entrepreneurs, Freelancers, Job seekers, Wanna be Entrepreneurs, working professionals who want to enhance their skill.</p>
+                  </div>
+                  <center><button>Read More</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-1 h-100 text-center text-light">
+                  <img src="images/image4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">NASSCOM Futureskills Prime Certified Predictive Analytics</h5>
+                    <p class="card-text">Predictive Analytics Modeler is to gain knowledge in analytics models to collect, data mining, data collection, data visualization, and integration, nodes, and statistical analysis.</p>
+                  </div>
+                  <center><button>Read More</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-1 h-100 text-center text-light">
+                  <img src="images/image5.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Amazon Web Services</h5>
+                    <p class="card-text">Right from the jobseeker or existing professional who wants to accelerate their career with advanced concepts of cloud computing, AWS and core services.</p>
+                  </div>
+                  <center><button>Read More</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-1 h-100 text-center text-light">
+                  <img src="images/image6.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Devops</h5>
+                    <p class="card-text">This is a must-learn course for the individuals who started her journey in the DevOps and cloud world and is ideally suited to developers, Cloud Admin, Solutions Architects and managers.</p>
+                  </div>
+                  <center><button>Read More</button></center>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid pt-4 listDiv">
+        <div class="container mt-auto">
+          <div class="row gap-3">
+            <div class="col">
+               <p class="fs-2">Advantages of training at Innomatics</p>
+               <ul class="lists">
+                <li>Flexible Online Live and Classroom Training</li>
+            <li>100% Internship guarantee program
+            </li>
+            <li>Dedicated Placement vertical
+            </li>
+            <li>Mastery level certifications that are globally accepted
+            </li>
+            <li>Backup Classes & Lifetime LMS access
+            </li>
+            <li>Completely Practical Oriented Approach
+            </li>
+            <li>Hands-on training on the capstone projects
+            </li>
+            <li>Bi-weekly connects from industry experts
+            </li>
+            <li>Domain Teach back and Reverse Presentations
+            </li>
+            <li>Free Technical Support & Individual Career Counselling
+            </li>
+            <li>Expert mentoring Weekly Tests & Assignments
+            </li>
+            <li>Mock-up Exams, and Interviews
+            </li>
+            <li>Meet-ups, Workshops, Hackathons & Conferences
+            </li>
+            <li>Exclusive programs for Non-IT professionals
+            </li>
+               </ul>
+            </div>
+            <div class="col-md">
+                <p class="fs-2 text-center">Let’s Watch a Video Bite From Our Institute</p>
+                <div class="ratio ratio-16x9 ">
+                  <iframe
+           src="https://www.youtube.com/embed/OKUFrW40xyI" title="Find Out Why Innomatics Is The Best EdTech In India" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="iframe"></iframe>
+                </div>
+          <center><button class="watch">Watch More Videos</button></center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center whyChoose">
+        <p class="headPara">Why People Choose Our Training</p>
+        <div class="border d-none d-md-block border-dark m-auto p-2   text-center rounded-pill togDiv">
+          <p class="m-0 d-flex gap-3 text-center align-items-center">
+            <a class="btn togbtn btn-dark rounded-pill"  data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">EXPERT TRAINERS</a>
+            <button class="btn togbtn btn-danger rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">CAPSTONE PROJECTS</button>
+            <button class="btn togbtn btn-dark rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">INHOUSE INTERNSHIP</button>
+            <button class="btn togbtn btn-danger rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">PLACEMENTS</button>
+          </p>
+        </div>
+    
+        <div id="accordion" class="mt-3 ms-4 me-4 d-none d-md-block">
+          <div class="collapse show" id="multiCollapseExample1" data-bs-parent="#accordion">
+            <div class="card card-body flexDiv">
+             <div class="d-flex">
+              <img src="images/img1.webp" class="img2" alt="">
+              <div class="mt-3 pe-5 para">
+                <p>Innomatics explored all over India to get the best trainers and succeeded with it. We have a pool of trainers working with highly qualified business partners and fortune companies to provide advanced and comprehensive training. </p>
+                <p>They curate the course content with an eye on the industry needs and standards to make students skilful and champions in solving the complex challenges of the industry.</p>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="collapse" id="multiCollapseExample2" data-bs-parent="#accordion">
+            <div class="card card-body flexDiv ">
+              <div class="d-flex">
+               <img src="images/img2.png" class="img2" alt="">
+               <div class="mt-3 pe-5 para">
+                 <p>At Innomatics, we believe in a practical learning approach. Making students work on real-time data helps in giving them a clear visualization of how it is applied in the real world. </p>
+                 <p>Considering this, we follow a collaborative group-oriented approach to learn with discussion forums and get hands-on with capstone projects to make our trainees good team players and strong thinkers to solve problems.</p>
+               </div>
+              </div>
+             </div>
+          </div>
+          <div class="collapse" id="multiCollapseExample3" data-bs-parent="#accordion">
+            <div class="card card-body flexDiv ">
+              <div class="d-flex">
+               <img src="images/img3.jpg" class="img2" alt="">
+               <div class="mt-3 pe-5 para">
+                 <p>Internships aren’t just about ground work at Innomatics. We believe that with the right program, One can develop young talents and lay a foundation for recruiting brilliant young minds to work for any organization.</p>
+                 <p>We do provide paid/unpaid internship programs that offer the opportunity to edge out larger competitors by providing interns with opportunities to conquer the business challenges.</p>
+               </div>
+              </div>
+             </div>
+          </div>
+          <div class="collapse" id="multiCollapseExample4" data-bs-parent="#accordion">
+            <div class="card card-body flexDiv ">
+              <div class="d-flex">
+               <img src="images/img4.jpg" class="img2" alt="">
+               <div class="mt-3 pe-5 para">
+                 <p>We have a collaboration with over 100+ MNCs and SMEs who directly source their business requirements through Innomatics. Also having a dedicated placement verticle that enables trainees to take advantage and excel in the career with extensive knowledge gained at Innomatics. </p>
+                 <p>For the benefit of the students to face the real challenges, we conduct mockup interviews with instant feedback,1-1 mentorship, provide extensive support to the Learning Management System</p>
+                 <p>(LMS) where they can access the classes and stay updated, attend career fairs, Hackathons, workshops and meetups with leading industry experts.</p>
+               </div>
+              </div>
+             </div>
+          </div>
+        </div>
+
+        <div class="accordion d-md-none" id="accordionExample">
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header bg-dark" id="headingOne">
+              <button class="accordion-button bg-dark text-light " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                EXPERT TRAINERS
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="d-flex flex-column align-items-center text-start">
+                  <img src="images/img1.webp" class="img1 bg-danger" alt="">
+                  <div>
+                    <p class="text-left">Innomatics explored all over India to get the best trainers and succeeded with it. We have a pool of trainers working with highly qualified business partners and fortune companies to provide advanced and comprehensive training. </p>
+                    <p>They curate the course content with an eye on the industry needs and standards to make students skilful and champions in solving the complex challenges of the industry.</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header bg-dark" id="headingTwo">
+              <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                CAPSTONE PROJECTS
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="d-flex flex-column align-items-center text-start">
+                  <img src="images/img2.png" class="img1 bg-danger" alt="">
+                  <div>
+                    <p>At Innomatics, we believe in a practical learning approach. Making students work on real-time data helps in giving them a clear visualization of how it is applied in the real world. </p>
+                    <p>Considering this, we follow a collaborative group-oriented approach to learn with discussion forums and get hands-on with capstone projects to make our trainees good team players and strong thinkers to solve problems.</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                INHOUSE INTERNSHIP
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="d-flex flex-column align-items-center text-start">
+                  <img src="images/img3.jpg" class="img1 bg-danger" alt="">
+                  <div>
+                    <p>Internships aren’t just about ground work at Innomatics. We believe that with the right program, One can develop young talents and lay a foundation for recruiting brilliant young minds to work for any organization.</p>
+                    <p>We do provide paid/unpaid internship programs that offer the opportunity to edge out larger competitors by providing interns with opportunities to conquer the business challenges.</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                PLACEMENTS
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="d-flex flex-column align-items-center text-start">
+                  <img src="images/img4.jpg" class="img1 bg-danger" alt="">
+                  <div>
+                    <p>We have a collaboration with over 100+ MNCs and SMEs who directly source their business requirements through Innomatics. Also having a dedicated placement verticle that enables trainees to take advantage and excel in the career with extensive knowledge gained at Innomatics. </p>
+                    <p>For the benefit of the students to face the real challenges, we conduct mockup interviews with instant feedback,1-1 mentorship, provide extensive support to the Learning Management System</p>
+                    <p>(LMS) where they can access the classes and stay updated, attend career fairs, Hackathons, workshops and meetups with leading industry experts.</p>
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container-fluid pb-5 text-center g-container">
+        <div class="w-md-75 m-auto">
+            <p class="fs-3 text-center">Here Are Some Of Our Success Stories</p>
+        
+           <div class="d-flex gap-3 gap-md-5 flex-row flex-lg-column ms-3 ms-md-3">
+            <div class="col d-flex flex-column flex-lg-row gap-3 gap-md-5  m-auto">
+              <img src="images/student1.webp" alt="" class="col-md-3 col-5 student">
+              <img src="images/student2.webp" alt="" class="col-md-3 col-5 student">
+              <img src="images/student3.webp" alt="" class="col-md-3 col-5 student">
+              <img src="images/student4.webp" alt="" class="col-md-3 col-5 student">
+          </div>
+          
+          <div class="col d-flex flex-column flex-lg-row d-flex gap-3 gap-md-5 m-auto" >
+              <img src="images/student5.webp" alt="" class="col-md-3 col-5 student">
+              <img src="images/student6.webp" alt="" class="col-md-3 col-5 student">
+              <img src="images/student7.webp" alt="" class="col-md-3 col-5 student">
+              <img src="images/student8.webp" alt="" class="col-md-3 col-5 student">
+          </div>
+           </div>
+        </div>
+    </div>
+    </section>
+    <section>
+      <div class="container pb-5">
+            <div class="m-auto">
+              <p class="text-center fs-2 mt-4">Read Latest Business News & Blog updates</p>
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ps-5 pe-5">
+                <div class="col-md">
+                  <div class="card h-100">
+                    <img src="images/classes-1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">OOPS Concepts in Python: Part 1</h5>
+                      <p class="card-text">Class, Objects, Constructor, Methods in Python : What is Object-Oriented Programming (OOPs)? In Python,...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="card h-100">
+                    <img src="images/classes-2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Real-world Applications of Data Science in Today’s Fast-paced Environment
+                      </h5>
+                      <p class="card-text">
+                        Data science is a field that has emerged as an essential job avenue and has a wide range of real-time applications....
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="card h-100">
+                    <img src="images/classes-3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Top 7 Full Stack Development Trends To Follow
+                        </h5>
+                      <p class="card-text">As consumerism increases so do the need for user-friendly apps. This is where a..</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="card h-100">
+                    <img src="images/classes-4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Why should you join Innomatics?
+                        </h5>
+                      <p class="card-text">At Innomatics we believe in looking at the larger picture and forecasting which direction the industry is moving. We...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="card h-100">
+                    <img src="images/classes-5.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">7 Things to know before you start your career in Data Science
+                        
+                        </h5>
+                      <p class="card-text">Around 82,000 job openings are present worldwide in 2021 that require skills in Data Science and around 92% of the...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="card h-100">
+                    <img src="images/classes-6.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">How To Start a Data Science 
+                        </h5>
+                      <p class="card-text">Course to become a data scientist?
+                        Today, the value of data is revolutionary in the modern digital economy. The statistical methods and the discovery of...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <div class="container-fluid footer-section">
+        <div class="row ps-4 pe-5  pt-3 pb-3 row-5 ">
+          <div class="col ps-5">
+            <img src="images/innomatics-footer-logo.webp" class="w-100" alt="logo" class="footerImg">
+            <p class="text-secondary fs-5">A leading training institute, <span style="color: grey;font-weight: 800;">Innomatics Research Labs</span> offers courses in areas such as NASSCOM Futureskills Prime Certified <span style="color: pink;font-weight: 800;">Data Science</span>, Python, AI, Data Analytics, <span style="color: pink;font-weight: 800;">Full Stack Development</span>, and <span style="color: pink;font-weight: 800;">Digital Marketing</span>. Our practical training is designed meticulously to meet industry needs and provide valuable certification upon completion, empowering individuals to excel in their careers.</p>
+            <div class="d-flex gap-2">
+              <a href="https://www.linkedin.com/school/innomatics-research-labs/posts/?feedView=all" target="_blank" title="linkedin icons"><img src="images/linkedin.png" class="social-media" alt=""></a>
+              <a href="https://www.facebook.com/innomaticshyd" target="_blank"><img src="images/social.png" class="social-media" alt=""></a>
+              <a href="https://www.instagram.com/innomatics_hyd/" target="_blank"><img src="images/instagram.png" class="social-media" alt=""></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2Finnomaticshyd" target="_blank"><img src="images/logos.png"  class="social-media" alt=""></a>
+              <a href="https://www.youtube.com/c/InnomaticsResearchLabs" target="_blank"><img src="images/video.png"  class="social-media" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md  ps-md-5 pt-md-4 mt-3 mt-md-0">
+            <div class="g-1 ps-4 ps-md-5">
+              <a href="#cour" class="cour">Courses</a>
+              <div class="linksDiv">
+               <a href="#dataScience">Data Science </a>
+              <a href="#dataScience">Online Data Science </a>
+              <a href="#dataScience">Advanced Generative AI </a>
+              <a href="#dataScience">Full Stack Web Developer</a>
+              <a href="#dataScience">Digital Marketing </a>
+              <a href="#dataScience">Placements</a>
+              <a href="#dataScience">Partner with us </a>
+              <a href="#dataScience">Privacy Policy</a>
+              </div>
+           </div>
+          </div>
+          <div class="col-md pe-5 pt-4">
+            <div class="g-1 g-3">
+              <a href="#contact-details" class="cour cour-3">Contact Details:</a>
+              <div class="details pt-2">
+               <div>
+                 <p class="bold"><span><img src="images/placeholder.png" class="loc" alt=""></span> Kukatpally — Hyderabad</p>
+                 <p class="noBold text-left">#205, 2nd Floor, Fortune Signature, Near JNTU Metro Station, Kukatpally, Hyderabad, Telangana 500085</p>
+               </div>
+               <div>
+                 <p class="bold"> <span><img src="images/placeholder.png" class="loc" alt=""></span>Gachibowli — Hyderabad</p>
+                 <p class="noBold text-left"> 2nd Floor, Leeway, BP Raju Marg, Opp. Sarath City Capital Mall, Beside Subbayagari Hotel, Laxmi Cyber City, Whitefields, Kondapur, Telangana 500081</p>
+               </div>
+               <div>
+                 <p class="bold"><span><img src="images/placeholder.png" class="loc" alt=""></span>Pune</p>
+                 <p class="noBold text-left"> 2nd Floor, Sai Sayaji Apartment, 201,(P, Paud Rd, beside VANAZ Metro, above Bata showrrom, Ramkrishna Paramhans Nagar, Kothrud, Pune, Maharashtra 411038</p>
+               </div>
+               <div>
+                 <p class="bold"><span>&#128222;</span>Phone/Whatsapp:</p>
+                 <p class="noBold"> +91-9951666670 / +91-9951666671</p>
+                 <p class="noBold">  +91-6304126766  / +91-9347804375</p>
+               </div>
+               <div>
+                 <p class="bold"><span><img src="images/email.png" class="loc" alt=""></span>For Course: <span class="noBold">info@innomatics.in</span></p>
+               </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <p class="container-fluid text-center bg-dark text-light m-0 p-3">© 2023 Innomatics Research Labs Pvt Ltd, All rights reserved.</p>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
